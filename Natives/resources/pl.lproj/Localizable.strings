@@ -157,6 +157,7 @@
 "preference.detail.appicon" = "Umożliwia wybór różnych ikon ekranu głównego dla Amethyst.";
 "preference.title.appicon-default" = "Znany Amethyst (jasny)";
 "preference.title.appicon-dark" = "Znany Amethyst (ciemny)";
+"preference.title.appicon-development" = "Szkic rozwoju";
 "preference.title.hidden_sidebar" = "Ukryj pasek boczny menu głównego";
 "preference.detail.hidden_sidebar" = "Pozwala ci ukryć pasek boczny w menu głównym na początku i przy obrocie.";
 
@@ -262,6 +263,8 @@
 "preference.detail.debug_ipad_ui" = "Odblokuj interfejs użytkownika wyłącznie dla iPada (alarm, klawiatura itp.), jeśli jest włączony, lub interfejs iPhone'a, jeśli jest wyłączony.";
 "preference.title.debug_auto_correction" = "Auto-korekta";
 "preference.detail.debug_auto_correction" = "Włącz automatyczną korektę podczas wpisywania tekstu w grze.";
+"preference.title.debug_hide_home_indicator" = "Ukryj dolny pasek ekranu głównego";
+"preference.detail.debug_hide_home_indicator" = "Spowoduje to wyłączenie blokady paska powrotu do ekranu głównego. Aby jednocześnie ukryć i zablokować pasek powrotu do ekranu głównego, należy użyć funkcji „Dostęp nadzorowany”.";
 
 "preference.profile.title.name" = "Nazwa";
 "preference.profile.title.loader_type" = "Typ wczytywacza";
