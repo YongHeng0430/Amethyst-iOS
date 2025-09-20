@@ -14,16 +14,26 @@
 
 // The play button
 "Play" = "시작하기";
+"Details" = "상세";
 
 // Version categories
 "Installed" = "설치됨";
 "Snapshot" = "스냅숏";
+"Releases" = "릴리스";
+"Unstable" = "불안정";
+"Old-beta" = "Old-beta";
+"Old-alpha" = "Old-alpha";
 
 // Custom controls
 "Copy" = "복사";
 "Edit" = "수정";
 "Move" = "움직이다";
 "Remove" = "제거";
+"Resize" = "크기 조절";
+// Visibility
+"Always" = "항상";
+"In game" = "인게임";
+"In menu" = "메뉴";
 "custom_controls.button_edit.name" = "이름";
 "custom_controls.button_edit.size" = "크기";
 "custom_controls.button_edit.mapping" = "매핑";
