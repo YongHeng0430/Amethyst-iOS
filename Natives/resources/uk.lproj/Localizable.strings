@@ -177,11 +177,13 @@
 "preference.title.renderer.release.auto" = "Авто";
 "preference.title.renderer.release.gl4es" = "holy gl4es";
 "preference.title.renderer.release.angle" = "ANGLE";
+"preference.title.renderer.release.mg" = "MobileGlues";
 "preference.title.renderer.release.zink" = "Zink";
 
 "preference.title.renderer.debug.auto" = "Авто: gl4 або ANGLE";
 "preference.title.renderer.debug.gl4es" = "Gl4es 1.1.4 — експортує OpenGL 2.1";
 "preference.title.renderer.debug.angle" = "ANGLE (1.17+) - експортує OpenGL 3.2 (Базовий профіль, обмежений)";
+"preference.title.renderer.debug.mg" = "MobileGlues (1.17+) — експорт OpenGL 4.0, ЕКПЕРИМЕНТАЛЬНО";
 "preference.title.renderer.debug.zink" = "Zink (Mesa 21.0) — експортує OpenGL 4.1";
 
 "preference.detail.renderer" = "Змініть механізм промальовування OpenGL для використання. Zink тимчасово вимкнено в iOS 16 і новіших версіях для діагностики проблем.";
