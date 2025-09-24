@@ -183,6 +183,7 @@
 "preference.title.renderer.debug.auto" = "Tự động: gl4es hoặc ANGLE";
 "preference.title.renderer.debug.gl4es" = "holy gl4es - xuất ra OpenGL 2.1";
 "preference.title.renderer.debug.angle" = "ANGLE (1.17+) - xuất ra OpenGL 3.2 (Core Profile, có giới hạn)";
+"preference.title.renderer.debug.mg" = "MobileGlues (1.17+) - xuất ra OpenGL 4.0, THỬ NGHIỆM";
 "preference.title.renderer.debug.zink" = "Zink (Mesa 21.0) - xuất ra OpenGL 4.1";
 
 "preference.detail.renderer" = "Thay đổi trình kết xuất OpenGL được sử dụng. Zink hiện bị tạm tắt trên iOS 16 trở lên để sửa lỗi.";
