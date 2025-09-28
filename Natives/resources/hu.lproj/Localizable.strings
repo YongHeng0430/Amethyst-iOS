@@ -106,6 +106,8 @@
 "login.warn.message.legacy_ios" = "Hogy fusson a következő kiadás, iOS 14-es vagy későbbi verzióra lesz szükséged.";
 "login.warn.title.limited_ram" = "Ez az eszköz korlátozott memóriával rendelkezik.";
 "login.warn.message.limited_ram" = "Érdemes az automatikus RAM-ot engedélyezve hagyni, hogy elkerüldd az instabilitást és a teljesítménnyel való gondok ellen.";
+"login.warn.title.ios19_jitdead" = "Az Ametiszt nem támogatott az iOS 26 vagy későbbi verziókon.";
+"login.warn.message.ios19_jitdead" = "Az iOS azon változásai miatt, ami megakadályozzák a JIT engedélyezését, az \"Ametiszt\" jelenlegi állapotában nem működik, és komoly kutatásra van szükség egy új út megtalálásához.\n\nAz OK gomb megnyomásával bezárhatod az alkalmazást.";
 
 "login.warn.title.demomode" = "A fiókod demó";
 "login.warn.message.demomode" = "Az offline és a helyi mód helyett a demó mód lehetővé teszi, hogy bejelentkezzhess egy olyan Microsoft-fiókkal, amin nincsen megvásárolva a Minecraft, és játsszhass a Java Edition próbaverziójával, ami az 1.3.1-es és újabb verziókban jelent meg. A régebbi verziókban tartalmazza a teljes játékot, mivel a hivatalos launcherben sem implementáltak korlátozásokat ezekben a verziókban. Látogasd meg a weboldalunkat, hogy többet megtudj az offline módról.";
@@ -175,11 +177,13 @@
 "preference.title.renderer.release.auto" = "Auto";
 "preference.title.renderer.release.gl4es" = "Holy GL4ES";
 "preference.title.renderer.release.angle" = "ANGLE";
+"preference.title.renderer.release.mg" = "MobileGlues";
 "preference.title.renderer.release.zink" = "Zink";
 
 "preference.title.renderer.debug.auto" = "Auto.: GL4ES vagy ANGLE";
 "preference.title.renderer.debug.gl4es" = "Holy HL4ES - exportálja a OpenGL 2.1-et";
 "preference.title.renderer.debug.angle" = "ANGLE (1.17+) OpenGL 3.2-t exportálja (Core Profil, korlátozott)";
+"preference.title.renderer.debug.mg" = "MobileGlues (1.17+) - OpenGL 4.0-t exportálja, KÍSÉRLETI";
 "preference.title.renderer.debug.zink" = "Zink (Mesa 21.0) - OpenGL 4.1-t exportálja";
 
 "preference.detail.renderer" = "Váltsd át az OpenGL renderelőt a használatához. a Zink ideiglenesen le van tiltva iOS 16-on és későbbi verziókon a problémák diagnosztizáláshoz.";
@@ -195,7 +199,7 @@
 "preference.title.fullscreen_airplay" = "Teljes kijelző AirPlay-en";
 "preference.detail.fullscreen_airplay" = "Lehetővé teszi a játék teljes képernyős ablakának megjelenítését a külső kijelzőn a képernyőn lévő összes elem tükrözése helyett.";
 "preference.title.silence_other_audio" = "Audió szünetelése, mikor a játék megnyílik";
-"preference.detail.silence_other_audio" = "Engedélyezzd, hogy az \"Ametiszt\" szüneteltesse más alkalmazásokat, például a Zene appot a játék indításakor.";
+"preference.detail.silence_other_audio" = "Engedélyezzd ezt, hogy az \"Ametiszt\" szüneteltesse más alkalmazásokat, például a Zene appot a játék indításakor.";
 "preference.title.silence_with_switch" = "Audió letiltása Silent Switch-el";
 "preference.detail.silence_with_switch" = "Engedélyezd ezt, hogy az audiót letiltsa, amikor a Csendes Mód be van kapcsolva. Fejhallgatókra és külső hangszórókra ez nincs hatással.";
 "preference.title.allow_microphone" = "Mikrofon bemenetének engedélyezése";
