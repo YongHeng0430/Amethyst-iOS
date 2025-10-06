@@ -19,7 +19,7 @@ jobs:
           - platform: 2
             platform_name: ios
     
-    runs-on: MacOS-latest
+    runs-on: J316sAP
     steps:
       - name: Remove work folders
         run: |
